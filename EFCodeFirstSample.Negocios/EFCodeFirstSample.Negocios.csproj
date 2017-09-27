@@ -40,7 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\Autor.cs" />
     <Compile Include="Entidades\Categoria.cs" />
+    <Compile Include="Entidades\Emprestimo.cs" />
+    <Compile Include="Entidades\Entidade.cs" />
+    <Compile Include="Entidades\Exemplar.cs" />
     <Compile Include="Entidades\Livro.cs" />
     <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EFCodeFirstSample.Negocios.Entidades
+﻿namespace EFCodeFirstSample.Negocios.Entidades
 {
-    class Categoria
+    public class Categoria: Entidade
     {
+        public string Descricao { get; set; }
     }
 }
