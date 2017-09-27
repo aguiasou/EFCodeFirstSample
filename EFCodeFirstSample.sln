@@ -1,10 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstSample.Negocios", "EFCodeFirstSample.Negocios\EFCodeFirstSample.Negocios.csproj", "{46BE0226-7F74-48B3-B249-F01EB48035B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstSample.Dados", "EFCodeFirstSample.Dados\EFCodeFirstSample.Dados.csproj", "{3CB03518-09E5-442A-B435-917EBE4F5540}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46BE0226-7F74-48B3-B249-F01EB48035B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BE0226-7F74-48B3-B249-F01EB48035B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BE0226-7F74-48B3-B249-F01EB48035B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BE0226-7F74-48B3-B249-F01EB48035B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB03518-09E5-442A-B435-917EBE4F5540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB03518-09E5-442A-B435-917EBE4F5540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB03518-09E5-442A-B435-917EBE4F5540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB03518-09E5-442A-B435-917EBE4F5540}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53EAC196-EB85-4567-A957-F5F49F31EA06}
 	EndGlobalSection
 EndGlobal
