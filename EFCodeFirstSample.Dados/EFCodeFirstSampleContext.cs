@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EFCodeFirstSample.Dados
 {
-    class EFCodeFirstSampleContext
+    public class EFCodeFirstSampleContext
     {
     }
 }
