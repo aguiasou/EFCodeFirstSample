@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 
 namespace EFCodeFirstSample.Negocios.Entidades
 {
-    public class Livro : Entidade
+    public class Livro : Entity
     {
         public string Titulo { get; set; }
         public string ISBN { get; set; }

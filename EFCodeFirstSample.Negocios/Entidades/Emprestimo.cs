@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EFCodeFirstSample.Negocios.Entidades
 {
-    public class Emprestimo : Entidade
+    public class Emprestimo : Entity
     {
         public DateTime DataEmprestimo { get; set; }
         public virtual Usuario Usuario { get; set; }

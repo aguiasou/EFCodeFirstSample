@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EFCodeFirstSample.Negocios.Entidades
 {
-    public class Usuario: Entidade
+    public class Usuario: Entity
     {
         public string Nome { get; set; }
     }
